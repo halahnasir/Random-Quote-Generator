@@ -1,0 +1,64 @@
+body {
+  background-color: #064d69;
+  overflow: hidden;
+
+  .container {
+    background-color: rgb(232, 249, 252);
+    margin: 10vh 15vh 10vh 15vh;
+    height: 80vh;
+    border: solid 2px #ac9a9a;
+
+    .btn {
+      margin: 20vh 80vh 5vh 80vh;
+      background-color: #e0b424;
+      border-color: #064d69;
+      color: #064d69;
+      font-size: 1rem;
+      font-weight: bold;
+      font-family: impact;
+      letter-spacing: 0.5px;
+      padding: 12px;
+
+      @media screen and (min-width: 769px) and (max-width: 1170px) {
+        margin: 10vh 20vh 7vh 25vh;
+      }
+
+      @media screen and (max-width: 768px) {
+        margin: 10vh 20vh 15vh 10vh;
+      }
+    }
+
+    .quote {
+      color: #064d69;
+      margin: 20px;
+      padding: 0;
+      font-size: 3rem;
+      text-align: center;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+      @media screen and (min-width: 769px) and (max-width: 1170px) {
+        font-size: 2rem;
+      }
+
+      @media screen and (max-width: 768px) {
+        font-size: 20px;
+      }
+    }
+
+    .author {
+      float: right;
+      margin-right: 50px;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      letter-spacing: 1px;
+      color: #d8aa11;
+
+      @media screen and (min-width: 769px) and (max-width: 1170px) {
+        font-size: 20px;
+      }
+
+      @media screen and (max-width: 768px) {
+        font-size: 12px;
+      }
+    }
+  }
+}
